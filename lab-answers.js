@@ -60,6 +60,11 @@ console.log(dart);
 // Use a for of loop to call toUpperCase() on each of them and print out the result.
 const ninjaTurts = ["Donatello", "Leonardo", "Raphael", "Michelangelo"];
 
+// Shortcut to for loop == for all elements of the array do this
+for (let turtle of ninjaTurts) {
+    // creating and assigning turtle to every ninja turtle in the array
+    console.log(turtle.toUpperCase());
+}
 
 // +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
