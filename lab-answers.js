@@ -44,8 +44,8 @@ console.log(plantee);
 
 // step2 === Change Wolfy's hometown from "Yukon Territory" to "Gotham City".
 // step4 === Porgee decides that Wolfy can't be named "Wolfy" anymore. Remove "Wolfy" from the wolfy array and replace it with "Gameboy".
-wolfy.splice = (3, 1, "Gotham City");
-wolfy.splice = (0, 1, "Gameboy");
+wolfy.splice(3, 1, "Gotham City");
+wolfy.splice(0, 1, "Gameboy");
 console.log(wolfy);
 
 // step3 === Give D'Art a second hometown by adding "Hawkins"
