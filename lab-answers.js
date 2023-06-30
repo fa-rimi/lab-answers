@@ -61,6 +61,7 @@ console.log(dart);
 const ninjaTurts = ["Donatello", "Leonardo", "Raphael", "Michelangelo"];
 
 // Shortcut to for loop == for all elements of the array do this
+// For Loop allows for flexibility but for of targets all of it
 for (let turtle of ninjaTurts) {
     // creating and assigning turtle to every ninja turtle in the array
     console.log(turtle.toUpperCase());
