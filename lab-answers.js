@@ -18,3 +18,19 @@ for (let num = 1; num <= 100; num++) {
     console.log("FizzBuzz")
 }
 
+// WILD WILD LIFE === Use the following arrays to answer the questions below (name, species, age, hometown).
+const wolfy = ["Wolfy", "wolf", 16, "Yukon Territory"];
+const sharky = ["Sharky", "shark", 20, "Left Coast"];
+const plantee = ["Plantee", "plant",  5000 , "Mordor"];
+const porgee = ["Porgee", "Porg", 186, "Ahch-To"];
+const dart = ["D'Art" , "Demogorgan Dog", 2, "Upside Down"];
+
+// YELL AT NINJA TURTLES === Create an array with the members of the ninja turtles (Donatello, Leonardo, Raphael, Michaelangelo).
+// Use a for of loop to call toUpperCase() on each of them and print out the result.
+
+
+// METHODS, REVISITED === Here is a list of my favorite movies:
+
+// WHERE IS WALDO
+
+
