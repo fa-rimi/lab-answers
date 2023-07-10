@@ -110,7 +110,7 @@ console.log(favMovies);
 favMovies.shift();
 console.log(favMovies);
 
-// 6. unshift- what does it return? 
+// 6. unshift- what does it return?
 favMovies.unshift("Princess Mononoke");
 console.log(favMovies);
 // Adds Princess Mononoke to the front
@@ -145,3 +145,20 @@ whereIsWaldo[1][2] = "No One";
 console.log(whereIsWaldo);
 let found = whereIsWaldo[2][1][1];
 console.log(found);
+
+// +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+// EXCITED KITTEN === For every even number in your loop, log "...human...why you taking pictures of me?...", "...the catnip made me do it...", or "...why does the red dot always get away..." at random.
+let talk = [
+  "...human...why you taking pictures of me?...",
+  "...the catnip made me do it...",
+  "...why does the red dot always get away...",
+];
+for (let i = 0; i <= 20; i++) {
+  console.log("Love me, pet me! HSSSSSS!");
+  if (i % 2 === 0) {
+    let meow = 0;
+    console.log(talk[Math.floor(Math.random() * talk.length)]);
+  }
+}
+
